@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 120px;
+  background-color: aqua;
+
+  .header_left {
+    display: flex;
+
+    p {
+      padding-left: 40px;
+    }
+  }
+
+  .nav_items {
+    list-style: none;
+    display: flex;
+  }
+}
